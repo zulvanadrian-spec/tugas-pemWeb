@@ -1,116 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tugas Pem Web</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body bgcolor="#320A28"><font color="#D9FFF4">
-    <h1 align="center">Profile </h1>
+<body>
+    <div class="container">
+        <h1>Profile</h1>
 
-    <center>
-       <img src="https://zulvanadrian-spec.github.io/tugas-pemWeb/myself_photo.jpeg" width="130" height="160" border="3" alt="Foto Saya">
-    </center>
+        <img class="foto" src="https://zulvanadrian-spec.github.io/tugas-pemWeb/myself_photo.jpeg" alt="Foto Saya">
 
-    <table align="center"width="60%" height="5" bgcolor="#511730" >
-        <tr><td></td></tr>
-    </table>
+        <div class="garis-dekor"></div>
 
-    <p align="center"><i>Hallo!!, saya Zulvanadriansa Futra <br>
-        saya merupakan Mahasiswa Aktif Universitas Buana Perjuangan Karawang
-        Program Studi Teknik Informatika <br>
-        yang sedang melaksanakan Pembelajaran Pada Semester 3 <br>
-        dan saya sedang belajar seputar <br>
-        dasar-dasar Pemrograman Web pada Mata Kuliah ini
-    </i></p>
+        <p><i>Zulvanadriansa Futra <br>
+            Mahasiswa Aktif Universitas Buana Perjuangan Karawang
+            Program Studi Teknik Informatika <br>
+            yang sedang melaksanakan Pembelajaran Pada Semester 3 <br>
+            dan sedang belajar seputar <br>
+            dasar-dasar Pemrograman Web pada Mata Kuliah ini
+        </i></p>
 
-    <hr ><br>
+        <hr><br>
 
-    <h2 align="center">Data Diri</h2>
+        <h2>Data Diri</h2>
 
-    <center> <!-- Tag untuk membungkus konten yang ada di dalam nya, termasuk tabel dan isi nya-->
-        <!--Menampilkan garis tabel, dan space antar ruang-->
-        <table bordercolor="#CB9173" border="1" cellpadding="5" cellspacing="2"> 
-        <tr><th bgcolor="#511730" align="left">NIM</th><td>25416255201061</td></tr>
-        <tr><th bgcolor="#511730" align="left">Nama</th><td>Zulvanadriansa Futra</td></tr>
-        <tr><th bgcolor="#511730" align="left">Kelas</th><td>IF25C</td></tr>
-        <tr><th bgcolor="#511730" align="left">Program Studi</th><td>Teknik Informatika</td></tr>
-
-        <!--<a href="mailto:...">
-        Bikin teks email jadi link yang bisa diklik. mailto: itu protokol khusus
-        saat diklik, browser bakal buka aplikasi email-->
-        <tr><th bgcolor="#511730" align="left">Email</th><td><a href="mailto:zulvanadrian@gmail.com"><font color="#E0D68A">zulvanadrian@gmail.com</a></td></tr>
-        <tr><th bgcolor="#511730" align="left">No. HP</th><td>0815-7465-2364</td></tr></font>
+        <table class="data">
+            <tr><th>NIM</th><td>25416255201061</td></tr>
+            <tr><th>Nama</th><td>Zulvanadriansa Futra</td></tr>
+            <tr><th>Kelas</th><td>IF25C</td></tr>
+            <tr><th>Program Studi</th><td>Teknik Informatika</td></tr>
+            <tr><th>Email</th><td><a class="email" href="mailto:zulvanadrian@gmail.com">zulvanadrian@gmail.com</a></td></tr>
+            <tr><th>No. HP</th><td>+62815xxx-xxx-xx</td></tr>
         </table>
-    </center>
 
-    <br>
-    <hr width="80%"> <!--Garis hanya 80% dari lebar halaman-->
+        <br>
+        <hr class="pendek">
 
-    <h2 align="center">Riwayat Pendidikan</h2>
-    <center>
-        <table bordercolor="#CB9173" border="1"  cellpadding="8" cellspacing="0">
-        <tr >
-            <th bgcolor="#511730">Jenjang</th>
-            <th bgcolor="#511730">Nama Institusi</th>
-            <th bgcolor="#511730">Tahun Ajaran</th>
-        </tr>
-        <tr>
-            <td>SD/MI</td>
-            <td>MI Tarbiyatussibyan Karawang</td>
-            <td align="center">2018 - 2019</td>
-        </tr>
-        <tr>
-            <td>SMP/MTS</td>
-            <td>MTS Cikeris Purwakarta</td>
-            <td align="center">2021 - 2022</td>
-        </tr>
-        <tr>
-            <td>SMA / SMK</td>
-            <td>SMK Annihayah Rawamerta</td>
-            <td align="center">2023 - 2025</td>
-        </tr>
-        <tr>
-            <td>Perguruan Tinggi</td>
-            <td>Universitas Buana Perjuangan Karawang - Teknik Informatika</td>
-            <td align="center">2025 - sekarang</td>
-        </tr>
+        <h2>Riwayat Pendidikan</h2>
+
+        <table class="pendidikan">
+            <tr>
+                <th>Jenjang</th>
+                <th>Nama Institusi</th>
+                <th>Tahun Ajaran</th>
+            </tr>
+            <tr>
+                <td>SD/MI</td>
+                <td>MI Tarbiyatussibyan Karawang</td>
+                <td class="tahun">2018 - 2019</td>
+            </tr>
+            <tr>
+                <td>SMP/MTS</td>
+                <td>MTS Cikeris Purwakarta</td>
+                <td class="tahun">2021 - 2022</td>
+            </tr>
+            <tr>
+                <td>SMA / SMK</td>
+                <td>SMK Annihayah Rawamerta</td>
+                <td class="tahun">2023 - 2025</td>
+            </tr>
+            <tr>
+                <td>Perguruan Tinggi</td>
+                <td>Universitas Buana Perjuangan Karawang - Teknik Informatika</td>
+                <td class="tahun">2025 - sekarang</td>
+            </tr>
         </table>
-    </center>
 
-    <br>
-    <hr width="80%">
+        <br>
+        <hr class="pendek">
 
-    <h2 align="center">Tautan & Sosial Media</h2>
-    <p align="center">
-        Instagram: <a href="https://instagram.com/zll_bangerr" target="_blank"><font color="#A82020">@zll_bangerr</font></a><br>
-        GitHub: <a href="https://github.com/zulvanadrian-spec" target="_blank"><font color="#2A7C13">zulvanadrian-spec</font></a><br>
-        Email: <a href="mailto:zulvanadrian@gmail.com"><font color="#E0D68A">zulvanadrian@gmail.com</font></a>
-    </p>
+        <h2>Tautan &amp; Sosial Media</h2>
+        <p>
+            Instagram: <a class="ig" href="https://instagram.com/zll_bangerr" target="_blank">@zll_bangerr</a><br>
+            GitHub: <a class="github" href="https://github.com/zulvanadrian-spec" target="_blank">zulvanadrian-spec</a><br>
+            Email: <a class="email" href="mailto:zulvanadrian@gmail.com">zulvanadrian@gmail.com</a>
+        </p>
 
-    <hr width="80%">
-    <br>
+        <hr class="pendek">
+        <br>
 
-    <h2>Bidang yang sedang dipelajari</h1>
-    <ul>
-        <li>HTML & CSS Basic</li>
-        <li>JavaScript Basic</li>
-        <li>Data Base</li>
-        <li>Python Data Analyst</li>
+        <h2 class="kiri">Bidang yang sedang dipelajari</h2>
+        <ul>
+            <li>HTML & CSS Basic</li>
+            <li>JavaScript Basic</li>
+            <li>Data Base</li>
+            <li>Python Data Analyst</li>
+        </ul>
 
-    </ul>
+        <hr>
 
-    <hr>
-
-    <center>
-
-        <p><i> Tugas Mata-Kuliah Pemrograman Web.</i></p>
-        <p align="right"><i><font size="1">hampir aja rajin ngodink</font></i></p>
-
-    </center>
-    </font>
-
-
+        <p class="catatan"><i>Tugas Mata-Kuliah Pemrograman Web.</i></p>
+    </div>
 </body>
 </html>

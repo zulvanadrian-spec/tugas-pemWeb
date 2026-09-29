@@ -1,0 +1,92 @@
+body {
+    background-color:#1e2516;
+    color: aliceblue;
+}
+
+h1, h2, p {
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin:50px auto;
+    padding:20px;
+    background-color: #414833;
+    border-radius: 20px;
+    box-shadow: 0 0 15px #82968c;
+}
+
+.foto {
+    display: block;
+    margin: 0 auto;
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #6c7d47;
+    box-shadow: 0 0 20px rgba(203, 145, 115, 0.5);
+}
+
+/* Garis dekorasi di bawah foto */
+.garis-dekor {
+    width: 60%;
+    height: 5px;
+    background-color: #6c7d47;
+    margin: 16px auto;
+}
+
+hr.pendek {
+    width: 80%;
+}
+
+/* Tabel */
+table.data,
+table.pendidikan {
+    margin: 0 auto;
+    border: 2px solid #656d4a;
+    border-collapse: collapse;
+}
+
+table.data th,
+table.data td,
+table.pendidikan th,
+table.pendidikan td {
+    border: 2px solid #656d4a;
+}
+
+table.data th,
+table.data td {
+    padding: 5px;
+}
+
+table.pendidikan th,
+table.pendidikan td {
+    padding: 8px;
+}
+
+th {
+    background-color: #6c7d47;
+    color: #f0f5e1
+}
+
+table.data th {
+    text-align: left;
+}
+
+td.tahun {
+    text-align: center;
+}
+
+/* Warna link */
+a.email  { color: lightskyblue; }
+a.ig     { color: salmon; }
+a.github { color: lawngreen; }
+
+/* Pengganti style inline */
+.kiri {
+    text-align: left;
+}
+
+.catatan {
+    font-size: small;
+}
