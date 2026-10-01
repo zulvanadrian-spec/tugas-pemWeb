@@ -1,6 +1,7 @@
 body {
-    background-color:#1e2516;
-    color: aliceblue;
+    margin: 0;
+    background-color:#22223b;
+    color: #f2e9e4;
 }
 
 h1, h2, p {
@@ -8,12 +9,12 @@ h1, h2, p {
 }
 
 .container {
-    max-width: 800px;
+    max-width: 750px;
     margin:50px auto;
     padding:20px;
-    background-color: #414833;
+    background-color: #2e334f;
     border-radius: 20px;
-    box-shadow: 0 0 15px #82968c;
+    box-shadow: 0 0 15px #95d1ff;
 }
 
 .foto {
@@ -23,7 +24,7 @@ h1, h2, p {
     height: 160px;
     object-fit: cover;
     border-radius: 50%;
-    border: 3px solid #6c7d47;
+    border: 3px solid #f2e9e4;
     box-shadow: 0 0 20px rgba(203, 145, 115, 0.5);
 }
 
@@ -38,7 +39,7 @@ h1, h2, p {
 .garis-dekor {
     width: 60%;
     height: 5px;
-    background-color: #6c7d47;
+    background-color: #9a8c98;
     margin: 16px auto;
 }
 
@@ -50,7 +51,7 @@ hr.pendek {
 table.data,
 table.pendidikan {
     margin: 0 auto;
-    border: 2px solid #656d4a;
+    border: 2px solid #9a8c98;
     border-collapse: collapse;
 }
 
@@ -58,7 +59,7 @@ table.data th,
 table.data td,
 table.pendidikan th,
 table.pendidikan td {
-    border: 2px solid #656d4a;
+    border: 2px solid #9a8c98;
 }
 
 table.data th,
@@ -72,8 +73,8 @@ table.pendidikan td {
 }
 
 th {
-    background-color: #6c7d47;
-    color: #f0f5e1
+    background-color: #2b2d42;
+    color: #f2e9e4
 }
 
 table.data th {
@@ -99,10 +100,11 @@ a.email  { color: lightskyblue; }
 a.ig     { color: salmon; }
 a.github { color: lawngreen; }
 a.linkidn {color: rgb(75, 146, 234);}
-a.profile {color: #fefae0;}
-a.achievment {color: #fefae0; }
+a.profile {color: #f8e880;}
+a.achievment {color: #f8e880; }
 a.kampus {color:skyblue; 
 font-size: small;}
+
 /* Pengganti style inline */
 .kiri {
     text-align: left;
