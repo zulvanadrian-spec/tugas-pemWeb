@@ -1,0 +1,188 @@
+body {
+    background-color: #F4F1E6;
+}
+
+.container {
+    max-width: 750px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #2F5D3A;
+    border-radius: 20px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+}
+
+
+
+
+header {
+    background-color: #E8B130;
+    padding: 30px;
+    text-align: center;
+    color:  #6d0000;
+    border-radius: 12px;
+}
+
+section {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+nav {
+    flex: 0 0 30%;
+    min-height: 300px;
+    padding: 20px;
+    border-radius: 12px;
+    background-image:
+        linear-gradient(rgba(31, 42, 31, 0.5), rgba(31, 42, 31, 0.5)),
+        url("img/paprika.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;   /* tombol jadi atas-bawah */
+    gap: 16px;
+}
+
+.btn {
+    display: inline-block;
+    background: #E8B130;
+    color: #1F2A1F;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.btn:hover {
+    background: #A8432B;
+    color: #fff;
+}
+
+article {
+    flex: 1;
+    color: #F4F1E6;
+}
+
+form {
+    color: #f8c303;
+}
+    
+
+header.reservasi{
+    font-size: larger;
+    background-color: #2E1B0E;
+    padding: 30px;
+    text-align: center;
+    color: #fff200;
+    border-radius: 12px;
+}
+    
+.box-reservasi form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+    
+.box-reservasi label,
+.box-reservasi .label-text {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.box-reservasi input,
+.box-reservasi select,
+.box-reservasi textarea{
+    width: 40%;
+    padding: 10px 12px;
+    border: 1px solid #D9C7AE;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-family: inherit;
+    box-sizing: border-box;
+}
+
+.box-reservasi input[type="radio"],
+.box-reservasi input[type="checkbox"] {
+    width: auto;
+    margin-right: 8px;
+}
+
+.box-reservasi .choice-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.box-reservasi label.choice {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+
+.box-reservasi .row {
+    display: flex;
+    gap: 16px;
+}
+
+.box-reservasi .row .field {
+    flex: 1;
+}
+
+.box-reservasi .error {
+    display: block;
+    min-height: 1em;
+    margin-top: 4px;
+    color: #FF8A7A;
+    font-size: 0.85rem;
+}
+
+.box-reservasi .actions {
+    display: flex;
+    gap: 12px;
+    margin-top: 8px;
+}
+
+.box-reservasi .actions .btn {
+    flex: 1;
+    border: none;
+    cursor: pointer;
+}
+
+/* Kotak luar: pakai gambar background */
+.container-reservasi {
+    max-width: 750px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 24px;
+    background-color: #5b2803;
+    background-image:
+        linear-gradient(rgba(46, 27, 14, 0.5), rgba(46, 27, 14, 0.5)),
+        url("img/rempah.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
+
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.box-reservasi h1 {
+    margin: 0;
+    text-align: center;
+}
+
+.box-reservasi {
+    background-color: #2E1B0E;
+    max-width: 650px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+}

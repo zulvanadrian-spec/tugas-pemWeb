@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservasi Dapur Nusantara</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="container-reservasi">
+
+    <header class="reservasi">Reservasi</header>
+
+    <div class="box-reservasi">
+        <form id="formReservasi" novalidate>
+                <div class="field">
+                    <label for="nama">Nama Pemesan</label>
+                    <input type="text" id="nama" name="nama" placeholder="Contoh: Budi Santoso">
+                    <small class="error"></small>
+                </div>
+
+                <div class="field">
+                    <label for="hp">No. WhatsApp</label>
+                    <input type="tel" id="hp" name="hp" placeholder="08xxxxxxxxxx">
+                    <small class="error"></small>
+                </div>
+
+                <div clas="container">
+                <div class="field">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="nama@email.com">
+                    <small class="error"></small>
+                </div>
+
+                <div class="row">
+                    <div class="field">
+                        <label for="tanggal">Tanggal</label>
+                        <input type="date" id="tanggal" name="tanggal">
+                        <small class="error"></small>
+                    </div>
+
+                    <div class="field">
+                        <label for="jam">Jam</label>
+                        <select id="jam" name="jam">
+                            <option value="">-- Pilih jam --</option>
+                            <option value="10:00">10.00</option>
+                            <option value="11:00">11.00</option>
+                            <option value="12:00">12.00</option>
+                            <option value="13:00">13.00</option>
+                            <option value="14:00">14.00</option>
+                            <option value="15:00">15.00</option>
+                            <option value="16:00">16.00</option>
+                            <option value="17:00">17.00</option>
+                            <option value="18:00">18.00</option>
+                            <option value="19:00">19.00</option>
+                            <option value="20:00">20.00</option>
+                        </select>
+                        <small class="error"></small>
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label for="jumlah">Jumlah Orang (1 - 12)</label>
+                    <input type="number" id="jumlah" name="jumlah" min="1" max="12" placeholder="Contoh: 4">
+                    <small class="error"></small>
+                </div>
+
+                <div class="field">
+                    <span class="label-text">Area</span>
+                    <div class="choice-group">
+                        <label class="choice"><input type="radio" name="area" value="Indoor"> Indoor</label>
+                        <label class="choice"><input type="radio" name="area" value="Outdoor"> Outdoor</label>
+                        <label class="choice"><input type="radio" name="area" value="VIP Room"> VIP Room (min. 6 orang)</label>
+                    </div>
+                    <small class="error"></small>
+                </div>
+
+                <div class="field">
+                    <label for="acara">Jenis Acara</label>
+                    <select id="acara" name="acara">
+                        <option value="">-- Pilih (opsional) --</option>
+                        <option value="Makan biasa">Makan biasa</option>
+                        <option value="Ulang tahun">Ulang tahun</option>
+                        <option value="Meeting">Meeting</option>
+                        <option value="Keluarga">Acara keluarga</option>
+                    </select>
+                </div>
+
+                <div class="field">
+                    <span class="label-text">Request Khusus (opsional)</span>
+                    <div class="choice-group">
+                        <label class="choice"><input type="checkbox" name="request" value="Kursi bayi"> Kursi bayi</label>
+                        <label class="choice"><input type="checkbox" name="request" value="Dekorasi"> Dekorasi</label>
+                        <label class="choice"><input type="checkbox" name="request" value="Kue ulang tahun"> Kue ulang tahun</label>
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label for="catatan">Catatan</label>
+                    <textarea id="catatan" name="catatan" rows="3" maxlength="150" placeholder="Tulis catatan tambahan..."></textarea>
+                    <small class="counter"><span id="hitung">0</span>/150</small>
+                </div>
+
+                <div class="field">
+                    <label class="choice">
+                        <input type="checkbox" id="setuju" name="setuju">
+                        Saya menyetujui kebijakan reservasi Dapur Nusantara
+                    </label>
+                    <small class="error"></small>
+                </div>
+
+                <div class="actions">
+                    <button type="submit" class="btn">Reservasi</button>
+                    <button type="reset" class="btn btn-ghost">Reset</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+
+</body>
+</html>
