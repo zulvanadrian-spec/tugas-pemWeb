@@ -18,7 +18,7 @@ header {
     background-color: #E8B130;
     padding: 30px;
     text-align: center;
-    color:  #6d0000;
+    color:  #5b2803;
     border-radius: 12px;
 }
 
@@ -57,7 +57,7 @@ nav {
 }
 
 .btn:hover {
-    background: #A8432B;
+    background: #6d1a06;
     color: #fff;
 }
 
@@ -69,7 +69,8 @@ article {
 form {
     color: #f8c303;
 }
-    
+
+/* Halaman Reservasi */
 
 header.reservasi{
     font-size: larger;
@@ -78,6 +79,7 @@ header.reservasi{
     text-align: center;
     color: #fff200;
     border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
 }
     
 .box-reservasi form {
