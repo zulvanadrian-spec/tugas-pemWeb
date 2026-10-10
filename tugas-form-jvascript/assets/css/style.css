@@ -35,7 +35,7 @@ nav {
     border-radius: 12px;
     background-image:
         linear-gradient(rgba(31, 42, 31, 0.5), rgba(31, 42, 31, 0.5)),
-        url("img/paprika.jpg");
+        url("/assets/images/paprika.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -164,7 +164,7 @@ header.reservasi{
     background-color: #5b2803;
     background-image:
         linear-gradient(rgba(46, 27, 14, 0.5), rgba(46, 27, 14, 0.5)),
-        url("img/rempah.jpg");
+        url("/assets/images/rempah2.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reservasi Dapur Nusantara</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 
 <body>
@@ -13,7 +13,7 @@
     <header class="reservasi">Reservasi</header>
 
     <div class="box-reservasi">
-        <form id="formReservasi" novalidate>
+        <form id="formReservasi" novalidate onsubmit="return validateForm()"> <!--agar -->
                 <div class="field">
                     <label for="nama">Nama Pemesan</label>
                     <input type="text" id="nama" name="nama" placeholder="Contoh: Budi Santoso">
@@ -119,6 +119,6 @@
     </div>
 </div>
 
-<script src="script.js"></script>
+<script src="../assets/js/script.js"></script>
 </body>
 </html>
