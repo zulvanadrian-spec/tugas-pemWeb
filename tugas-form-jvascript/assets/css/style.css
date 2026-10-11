@@ -6,7 +6,7 @@ body {
     max-width: 750px;
     margin: 50px auto;
     padding: 20px;
-    background-color: #2F5D3A;
+    background-color: #56321a;
     border-radius: 20px;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
 }
@@ -15,10 +15,10 @@ body {
 
 
 header {
-    background-color: #E8B130;
+    background-color: #ffb700;
     padding: 30px;
     text-align: center;
-    color:  #5b2803;
+    color:  #612800;
     border-radius: 12px;
 }
 
@@ -157,14 +157,14 @@ header.reservasi{
 
 /* Kotak luar: pakai gambar background */
 .container-reservasi {
-    max-width: 750px;
+    max-width: 800px;
     margin: 50px auto;
     padding: 30px;
     border-radius: 24px;
-    background-color: #5b2803;
+    background-color: white;
     background-image:
         linear-gradient(rgba(46, 27, 14, 0.5), rgba(46, 27, 14, 0.5)),
-        url("/assets/images/rempah2.jpg");
+        url("/assets/images/masakan.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

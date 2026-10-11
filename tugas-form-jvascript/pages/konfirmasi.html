@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konfirmasi Reservasi - Dapur Nusantara</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/konfirmasi.css">
+</head>
+
+<body>
+<div class="container-konfirmasi">
+
+    <header class="reservasi">Reservasi Berhasil!</header>
+
+    <div class="box-reservasi konfirmasi">
+        <p>Terima kasih, <strong id="kNama"></strong>. Tunjukkan kode ini saat tiba di Dapur Nusantara.</p>
+
+        <div class="kode" id="kKode"></div>
+
+        <ul>
+            <li>Tanggal: <span id="kTanggal"></span></li>
+            <li>Jam: <span id="kJam"></span></li>
+            <li>Jumlah: <span id="kJumlah"></span> orang</li>
+            <li>Area: <span id="kArea"></span></li>
+        </ul>
+
+        <div class="aksi">
+            <button type="button" class="btn" id="btnBaru">Reservasi Baru</button>
+            <button type="button" class="btn" id="btnLobby">Kembali ke Lobby</button>
+        </div>
+    </div>
+
+</div>
+
+<script src="../assets/js/konfirmasi.js"></script>
+</body>
+</html>
